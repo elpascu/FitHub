@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - FitHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-box">
+            <div class="auth-header">
+                <h2>Únete a FitHub</h2>
+                <p>Crea tu cuenta para comenzar tu viaje fitness</p>
+            </div>
+
+            <form class="auth-form">
+                <div class="form-group">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" class="auth-input" placeholder="Nombre completo" required>
+                </div>
+                <div class="form-group">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" class="auth-input" placeholder="Correo electrónico" required>
+                </div>
+                <div class="form-group">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" class="auth-input" placeholder="Contraseña" required>
+                </div>
+                <div class="form-group">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" class="auth-input" placeholder="Confirmar contraseña" required>
+                </div>
+
+                <div class="form-group checkbox-container">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">
+                        Acepto los <a href="#">términos y condiciones</a> y la <a href="#">política de privacidad</a>
+                    </label>
+                </div>
+
+                <button type="submit" class="auth-btn">Crear Cuenta</button>
+            </form>
+
+            <div class="auth-divider">O regístrate con</div>
+
+            <div class="social-auth">
+                <a href="#" class="social-btn">
+                    <i class="fab fa-google"></i>
+                    <span>Google</span>
+                </a>
+                <a href="#" class="social-btn">
+                    <i class="fab fa-facebook"></i>
+                    <span>Facebook</span>
+                </a>
+            </div>
+
+            <div class="auth-footer">
+                ¿Ya tienes una cuenta? <a href="login.html">Inicia sesión</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil - FitHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>FitHub</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="peso.html">Seguimiento de Peso</a></li>
+            <li><a href="rutinas.html">Rutinas</a></li>
+            <li><a href="dietas.html">Dietas</a></li>
+            <li class="nav-user">
+                <button class="user-menu-trigger">
+                    <img src="default-avatar.png" alt="Usuario">
+                    <span>Mi Cuenta</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="user-menu">
+                    <div class="user-menu-header">
+                        <h4>Juan García</h4>
+                        <p>juan@email.com</p>
+                    </div>
+                    <div class="user-menu-items">
+                        <a href="perfil.html" class="user-menu-item">
+                            <i class="fas fa-user"></i>
+                            <span>Mi Perfil</span>
+                        </a>
+                        <a href="#" class="user-menu-item">
+                            <i class="fas fa-cog"></i>
+                            <span>Configuración</span>
+                        </a>
+                        <a href="login.html" class="user-menu-item">
+                            <i class="fas fa-sign-out-alt"></i>
+                            <span>Cerrar Sesión</span>
+                        </a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="profile-page">
+        <div class="profile-header">
+            <div class="profile-cover"></div>
+            <div class="profile-info">
+                <div class="profile-avatar">
+                    <img src="default-avatar.png" alt="Foto de perfil">
+                    <button class="edit-avatar">
+                        <i class="fas fa-camera"></i>
+                    </button>
+                </div>
+                <div class="profile-details">
+                    <h1>Juan García</h1>
+                    <p class="profile-bio">Entusiasta del fitness y la vida saludable</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-content">
+            <div class="profile-section">
+                <div class="section-header">
+                    <h2>Información Personal</h2>
+                    <button class="edit-btn">
+                        <i class="fas fa-edit"></i>
+                        Editar
+                    </button>
+                </div>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>juan@email.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-calendar"></i>
+                        <span>25 años</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-ruler-vertical"></i>
+                        <span>175 cm</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-weight-scale"></i>
+                        <span>70 kg</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-section">
+                <div class="section-header">
+                    <h2>Objetivo Actual</h2>
+                </div>
+                <div class="goal-card">
+                    <div class="goal-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Pérdida de peso</h3>
+                    <p>Objetivo: 65 kg</p>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>FitHub</h3>
+                <p>Tu compañero en el camino hacia una vida más saludable</p>
+            </div>
+            <div class="footer-section">
+                <h4>Enlaces Rápidos</h4>
+                <ul>
+                    <li><a href="peso.html">Seguimiento de Peso</a></li>
+                    <li><a href="rutinas.html">Rutinas</a></li>
+                    <li><a href="dietas.html">Dietas</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <p>Email: info@fithub.com</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>IGFORMACION</h4>
+                <p>Desarrollado por:</p>
+                <ul class="developers-list">
+                    <li>Kike</li>
+                    <li>Peter</li>
+                    <li>Ferran</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 FitHub - Todos los derechos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
