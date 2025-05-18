@@ -67,9 +67,9 @@ El proyecto utiliza una paleta de colores moderna y atractiva:
 
 ## 👥 Equipo de Desarrollo
 
+- Ferran
 - Kike
 - Peter
-- Ferran
 
 ## 🔜 Próximas Mejoras
 
