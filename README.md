@@ -36,7 +36,7 @@ FitHub es una plataforma web integral diseñada para ayudar a los usuarios a alc
 - **Font Awesome**: Iconografía
 
 ### Características Técnicas
-- Diseño responsivo para todos los dispositivos
+- Diseño responsive para todos los dispositivos
 - Interfaz de usuario moderna y intuitiva
 - Sistema de navegación fluido
 - Menú de usuario interactivo
